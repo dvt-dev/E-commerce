@@ -16,26 +16,27 @@ const Form = ({ children }) => {
                     <img className={cx("banner-img")} src={banner} />
                 </div>
                 <div className={cx("form-container")}>
-                    <p className={cx("form-title")}>
-                        Welcome to <h1 className={cx("name")}>ProperLand</h1>
-                    </p>
+                    <div className={cx("form-title")}>
+                        Welcome to
+                        <h3 className={cx("name")}>DT . F</h3>
+                    </div>
                     <div className={cx("form-provider")}>
-                        <button className={cx("google")}>
-                            <FcGoogle size={32} />
+                        <button className={cx("google", "btn")}>
+                            <FcGoogle size={28} />
                             Login with Google
                         </button>
-                        <button className={cx("google")}>
+                        <button className={cx("facebook", "btn")}>
                             <FaFacebookF
-                                size={32}
+                                size={28}
                                 style={{ color: "#3B5999" }}
                             />
                             Login with Facebook
                         </button>
                     </div>
                     <div className={cx("separator")}>
-                        <span className={cx("line")} />
+                        <div className={cx("line")} />
                         OR
-                        <span className={cx("line")} />
+                        <div className={cx("line")} />
                     </div>
                     {children}
                 </div>

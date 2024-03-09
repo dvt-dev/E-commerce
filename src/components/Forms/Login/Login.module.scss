@@ -1,0 +1,105 @@
+.login-wrapper {
+
+  .login-container {
+    display: flex;
+    flex-direction: column;
+
+    .form-input-wrap {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      background-color: #ececec;
+      padding: 10px;
+      border-radius: 8px;
+
+      .form-input-container {
+        display:  flex;
+        flex-direction: column;             
+        gap: 6px;
+        flex: 1;
+
+        .input-title {
+          font-size: 1.2rem;
+          color: #2f2f2f;
+        }
+
+        .form-input {
+          font-weight: 700;
+        }
+      }
+    }
+
+    .form-input-wrap:nth-child(2) .form-input-container {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      div {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+
+      .show-password {
+        padding-right: 4px;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .form-input-wrap:nth-child(2) {
+      margin-top: 20px;
+    }
+
+    .password-inf {
+      margin: 14px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 1.4rem;
+
+      .remmerber-login {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+
+      .forgot-password {
+        .forgot-password-btn {
+          color: #6358dc;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    .button-login {
+      background-color: #6358dc;
+      color: var(--white-color);
+      border-radius: 8px;
+      padding: 12px 0;
+
+      &:hover {
+        cursor: pointer;
+        opacity: 0.9;
+      }
+    }
+
+    .form-controls {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 4px;
+      font-size: 1.4rem;
+
+      .register-btn {
+        color: #6358dc;
+        cursor: pointer;
+      }
+    }
+  }
+}

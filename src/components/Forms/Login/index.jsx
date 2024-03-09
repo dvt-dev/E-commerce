@@ -1,9 +1,10 @@
 import Form from "../Form";
 import { MdEmail } from "react-icons/md";
 import { FaKey } from "react-icons/fa6";
+import { FaEye } from "react-icons/fa";
+
 import styles from "./Login.module.scss";
 import classNames from "classnames/bind";
-import { Button } from "antd";
 const cx = classNames.bind(styles);
 
 const Login = () => {
@@ -13,7 +14,7 @@ const Login = () => {
             <div className={cx("login-wrapper")}>
                 <div className={cx("login-container")}>
                     <div className={cx("form-input-wrap")}>
-                        <MdEmail />
+                        <MdEmail size={22} />
                         <div className={cx("form-input-container")}>
                             <p className={cx("input-title")}>Email</p>
                             <input
@@ -25,17 +26,22 @@ const Login = () => {
                             />
                         </div>
                     </div>
-                    <div className={cx("form-password-wrap")}>
-                        <FaKey />
-                        <div className={cx("form-password-container")}>
-                            <p className={cx("password-title")}>Password</p>
-                            <input
-                                type="password"
-                                name="email"
-                                id="email"
-                                placeholder="Enter your password ..."
-                                className={cx("form-password")}
-                            />
+                    <div className={cx("form-input-wrap")}>
+                        <FaKey size={20} />
+                        <div className={cx("form-input-container")}>
+                            <div>
+                                <p className={cx("input-title")}>Password</p>
+                                <input
+                                    type="password"
+                                    name="email"
+                                    id="email"
+                                    placeholder="Enter your password ..."
+                                    className={cx("form-input")}
+                                />
+                            </div>
+                            <span className={cx("show-password", "btn")}>
+                                <FaEye />
+                            </span>
                         </div>
                     </div>
                     <div className={cx("password-inf")}>
@@ -50,17 +56,21 @@ const Login = () => {
                             </label>
                         </div>
                         <div className={cx("forgot-password")}>
-                            <button className={cx("forgot-password-btn")}>
+                            <button
+                                className={cx("forgot-password-btn", "btn")}
+                            >
                                 Forgot Password?
                             </button>
                         </div>
                     </div>
-                    <button className={cx("button-login")}>Login</button>
+                    <button className={cx("button-login", "btn")}>Login</button>
                     <div className={cx("form-controls")}>
                         <p className={cx("description")}>
                             Don’t have an account?
                         </p>
-                        <Button className={cx("register")}>Register</Button>
+                        <button className={cx("register-btn", "btn")}>
+                            Register
+                        </button>
                     </div>
                 </div>
             </div>

@@ -22,10 +22,60 @@
     .form-container {
       width: 570px;
       height: 100%;
+      display: flex;
+      flex-direction: column;
       background-color: var(--white-color);
       box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08);
       border-radius: 8px;
-      padding: 44px 64px;
+      padding: 25px 40px;
+
+      .form-title {
+        font-size: 3.6rem;
+        font-weight: 500;
+        line-height: 50px;
+
+        .name {
+          color: #6358dc;
+        }
+      }
+
+      .form-provider {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .google, .facebook {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 15px;
+          padding: 10px 0;
+          border-radius: 8px;
+          background: var(--white-color);
+          box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.11);
+
+          &:hover {
+            cursor: pointer;
+            transform: scale(1.05);
+          }
+        }
+      }
+
+      .separator {
+        margin: 15px 0;
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        align-items: center;
+        color: #2f2f2f;
+        
+        .line {
+          flex-grow: 1;
+          height: 1px;
+          background-color: #bfbfbf;
+        }
+      }
     }
 
 
