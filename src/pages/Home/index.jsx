@@ -1,4 +1,6 @@
 import Banner from "../../components/Layout/MainLayout/Banner";
+import Newsletter from "../../components/Layout/MainLayout/Newsletter";
+
 import styles from "./Home.module.scss";
 import classNames from "classnames/bind";
 
@@ -9,6 +11,7 @@ const Home = () => {
         <section className={cx("home-wrapper")}>
             <div className={cx("home-container")}>
                 <Banner />
+                <Newsletter />
             </div>
         </section>
     );

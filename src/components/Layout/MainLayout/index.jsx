@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 
+import Footer from "./Footer";
 import Header from "./Header";
 import styles from "./MainLayout.module.scss";
 import classNames from "classnames/bind";
@@ -12,6 +13,7 @@ const MainLayout = ({ children }) => {
             <Header />
 
             <div className={cx("content-container")}>{children}</div>
+            <Footer />
         </section>
     );
 };
