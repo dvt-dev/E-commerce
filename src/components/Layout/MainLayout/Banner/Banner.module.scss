@@ -1,0 +1,96 @@
+@import "../../../../css-config/mixins.module.scss";
+
+.banner-wrapper {
+  padding: 0 20px;
+  position: relative;
+  background-image: linear-gradient(to right, #974bd9, #6e3bdc);
+  
+  @include md {
+    height: 100vh;
+  }
+
+  .banner-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 60px;
+
+    @include md {
+      flex-direction: row;
+    }
+
+    .banner-content {
+      display: flex;
+      gap: 20px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: var(--white-color);
+      text-align: center;
+
+      .banner-title {
+        text-transform: uppercase;
+        font-size: 10rem;
+        font-weight: 700;
+        margin: 0;
+
+        @include md {
+          font-size: 20rem;
+        }
+      }
+
+      .banner-desc {
+        font-size: 2rem;
+       
+      }
+
+      .banner-button {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        transition: all linear .2s;
+        
+        .read-more, .shop-now {
+          text-transform: uppercase;
+          color: var(--white-color);
+          font-weight: 600;
+          padding: 16px 24px;
+          border: 2px solid var(--white-color);
+          
+          &:hover {
+            background-color: var(--white-color);
+            color: var(--black-color);
+            cursor: pointer;
+          }
+
+          @include md {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+
+    .banner-image {
+      position: relative;
+      z-index: 9;
+
+      @include md {
+        // margin: 50px 60px 0 0;
+      }
+      .banner-img {
+        width: 300px;
+        
+        @include md {
+          width: 500px;
+              
+        }
+      }
+    }
+  }
+}
