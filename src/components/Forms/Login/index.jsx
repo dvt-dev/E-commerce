@@ -5,9 +5,12 @@ import { FaEye } from "react-icons/fa";
 
 import styles from "./Login.module.scss";
 import classNames from "classnames/bind";
+import { useNavigate } from "react-router-dom";
 const cx = classNames.bind(styles);
 
 const Login = () => {
+    const navigate = useNavigate();
+
     return (
         <Form>
             {/* Login */}
@@ -33,8 +36,8 @@ const Login = () => {
                                 <p className={cx("input-title")}>Password</p>
                                 <input
                                     type="password"
-                                    name="email"
-                                    id="email"
+                                    name="password"
+                                    id="password"
                                     placeholder="Enter your password ..."
                                     className={cx("form-input")}
                                 />
@@ -63,12 +66,20 @@ const Login = () => {
                             </button>
                         </div>
                     </div>
-                    <button className={cx("button-login", "btn")}>Login</button>
+                    <button
+                        className={cx("button-login", "btn")}
+                        onClick={() => navigate("/home")}
+                    >
+                        Login
+                    </button>
                     <div className={cx("form-controls")}>
                         <p className={cx("description")}>
                             Don’t have an account?
                         </p>
-                        <button className={cx("register-btn", "btn")}>
+                        <button
+                            className={cx("register-btn", "btn")}
+                            onClick={() => navigate("/signup")}
+                        >
                             Register
                         </button>
                     </div>

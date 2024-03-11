@@ -1,0 +1,79 @@
+.signup-wrapper {
+
+  .signup-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    .form-input-wrap {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      background-color: #ececec;
+      padding: 10px;
+      border-radius: 8px;
+
+      .form-input-container {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        flex: 1;
+
+        .input-title {
+          font-size: 1.2rem;
+          color: #2f2f2f;
+        }
+
+        .form-input {
+          font-weight: 700;
+        }
+      }
+    }
+
+    .form-input-wrap:nth-child(3) .form-input-container {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      div {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+
+      .show-password {
+        padding-right: 4px;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }   
+
+    .button-signup {
+      background-color: #6358dc;
+      color: var(--white-color);
+      border-radius: 8px;
+      padding: 12px 0;
+      margin-top: 10px;
+
+      &:hover {
+        cursor: pointer;
+        opacity: 0.9;
+      }
+    }
+
+    .form-controls {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 4px;
+   
+
+      .login-btn {
+        color: #6358dc;
+        cursor: pointer;
+      }
+    }
+  }
+}
