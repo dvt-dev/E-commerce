@@ -1,0 +1,100 @@
+@import "../../../../css-config/mixins.module.scss";
+
+.footer-wrapper {
+  width: 100%;
+
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+   
+    
+    .footer-list {
+      display: flex;
+      justify-content: space-between;
+      // flex-direction: column;
+      gap: 30px;
+      padding: 50px 0;
+      flex-wrap: wrap;
+      
+      @include md {
+          // flex-direction: row;
+          gap: 60px;
+      }
+
+      .footer-item {
+        max-width: 300px;
+        display: block;
+
+        &:first-child {
+          flex: 1;
+        }
+
+        .footer-item-title {
+          margin-bottom: 24px;
+          font-weight: 600;
+        }
+
+        .footer-item-des {
+          color: #888;
+          line-height: 1.8;
+        }
+
+        .footer-item-list {
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+          color: #888;
+
+          .footer-item-info {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            padding-top: 10px;
+            line-height: 24px;
+
+            .text-info {
+              font-size: 1.5rem;
+            }
+          }
+
+          .footer-item-link {
+             .text {
+              font-size: 1.5rem;
+
+              &:hover {
+                cursor: pointer;
+                text-decoration: underline;
+                color: var(--black-color);
+              }
+             }
+
+
+          }
+        }
+      }
+    }
+
+    .footer-bar {    
+      border-top: 1px solid #ddd;
+      padding: 30px 0;
+      display: flex;
+      gap: 14px;
+      flex-direction: column-reverse;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+
+      @include md {
+        flex-direction: row;
+      }
+
+      .copy-right {
+        font-size: 1.4rem;
+      }
+    }
+
+   
+  }
+}

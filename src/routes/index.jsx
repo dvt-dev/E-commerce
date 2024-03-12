@@ -2,7 +2,7 @@ import MainLayout from "../components/Layout/MainLayout";
 import Home from "../pages/Home";
 import Login from "../components/Forms/Login";
 import SignUp from "../components/Forms/SignUp";
-import Product from "../pages/Product";
+import Product from "../components/Layout/MainLayout/Product";
 
 const publicRoutes = [
     {

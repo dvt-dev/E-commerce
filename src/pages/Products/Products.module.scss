@@ -1,0 +1,35 @@
+@import "../../css-config/mixins.module.scss";
+
+.products-wrapper {
+  margin-bottom: 50px;
+
+  .products-container {
+    padding: 0 20px;
+
+    @include xl {
+      padding: 0;
+    }
+
+    .products-heading {
+      padding: 20px 0;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 3rem;
+
+      @include md {
+        text-align: left;
+      }
+    }
+
+    .products-list {
+      display: flex;
+      flex-flow: wrap;
+      gap: 10px;
+
+      @include md {
+        gap: 20px;
+      }
+    }
+  }
+}

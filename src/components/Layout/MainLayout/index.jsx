@@ -11,7 +11,6 @@ const MainLayout = ({ children }) => {
     return (
         <section className={cx("main-layout")}>
             <Header />
-
             <div className={cx("content-container")}>{children}</div>
             <Footer />
         </section>

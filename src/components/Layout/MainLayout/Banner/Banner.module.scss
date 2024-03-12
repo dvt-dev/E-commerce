@@ -21,6 +21,11 @@
     gap: 60px;
 
     @include md {
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    @include lg {
       flex-direction: row;
     }
 
