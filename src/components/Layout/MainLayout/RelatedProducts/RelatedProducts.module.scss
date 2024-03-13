@@ -1,0 +1,18 @@
+@import "../../../../css-config/mixins.module.scss";
+
+.related-products-wrapper {
+  margin: 20px 0;
+
+  @include md {
+    margin: 40px 0;
+  }
+
+  .related-products-container {
+
+    .related-products-title {
+      margin-bottom: 30px;
+      text-transform: capitalize;
+      font-size: 3.2rem;
+    }
+  }
+}

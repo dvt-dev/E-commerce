@@ -1,0 +1,163 @@
+@import "../../css-config/mixins.module.scss";
+
+.product-details-wrapper {
+  padding-top: 20px;
+
+  @include md {
+    padding-top: 50px;
+  }
+
+  .product-details-container {
+    max-width: calc(100% - 40px);
+    margin: 0 auto;
+
+    @include md {
+      max-width: 1200px;
+      padding: 0 20px;
+    }
+
+    @include lg {
+      padding: 0;
+    }
+
+    display: flex;
+    flex-direction: column;
+
+    .product-details-content {
+      display: flex;
+      gap: 3rem;
+      flex-direction: column;
+      justify-content: space-between;
+
+      @include md {
+        flex-direction: row;
+        gap: 8rem;
+      }
+
+      .product-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.05);
+        flex-shrink: 0;
+        flex: 1;
+        padding: 20px;
+
+        .prod-img {
+          width: 100%;
+          display: block;
+        }
+      }
+
+      .product-details {
+        display: flex;
+        flex-direction: column;
+        gap: 2.4rem;
+        flex: 1;
+
+        .product-name {
+          font-size: 3.6rem;
+          font-weight: 600;
+        } 
+
+        .product-price {
+          font-weight: 800;
+          font-size: 4.2rem;
+        } 
+
+        .product-des {
+          font-size: 1.8rem;
+          line-height: 1.4;
+          color: var(--text-color);
+        }
+      }
+
+      .cart-buttons {
+        display: flex;
+        gap: 2.8rem;
+
+        .quantity-buttons {
+          display: flex;
+          align-items: center;
+          border-radius: 3px;
+
+          .reduce, .increase {
+            width: 45px;
+            padding: 12px 14px;
+            border: 2px solid #9f9f9f;
+            font-size: 2rem;
+            text-align: center;
+            cursor: pointer;
+          }
+
+          .quantity {
+            padding: 12px 24px;
+            border-top: 2px solid #9f9f9f;
+            border-bottom: 2px solid #9f9f9f;
+            font-size: 2rem;
+            text-align: center;
+          }
+        }
+
+        .add-to-card {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          padding: 0 12px;
+          background-color: var(--primary-color);
+          color: var(--white-color);
+          border-radius: 3px;
+
+          @include md {
+            padding: 0 20px;
+          }
+
+          &:hover {
+            cursor: pointer;
+            opacity: 0.9;
+          }
+        }  
+      }
+
+      .divider {
+        display: flex;
+        height: 1px;
+        background-color: #bfbfbf;
+      }
+
+      .info-expand {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding-bottom: 10px;
+
+        .info-item {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+
+          .category-name {
+            color: #6b6b6b;
+          }
+
+          .title {
+            width: 80px;
+            font-weight: 600;
+          }
+
+          .social-icons {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+
+           .social-icon:hover {
+            cursor: pointer;
+            opacity: 0.6;
+           }
+          }
+        }
+      }
+    }
+  }
+}

@@ -18,8 +18,9 @@ const Product = () => {
                 </div>
                 <div className={cx("product-details")}>
                     <p className={cx("product-name")}>
-                        Polaroid 57-Inch Photo/Video Tripod with Deluxe Tripod
-                        Ca...
+                        Airpod Pro Gen 2 dshaklfjsldakf
+                        hsakjdfdkajlhfhdflksahfskdjhfldsdsnfmmnsd
+                        dsdfkjshkjfjadshfkjdfdkjhfjdssjdkjdsfhkds
                     </p>
                     <span className={cx("product-price")}>&#x24; 100</span>
                 </div>

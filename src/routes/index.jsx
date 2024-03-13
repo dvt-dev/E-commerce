@@ -2,7 +2,8 @@ import MainLayout from "../components/Layout/MainLayout";
 import Home from "../pages/Home";
 import Login from "../components/Forms/Login";
 import SignUp from "../components/Forms/SignUp";
-import Product from "../components/Layout/MainLayout/Product";
+import Category from "../pages/Category";
+import ProductDetails from "../pages/ProductDetails";
 
 const publicRoutes = [
     {
@@ -22,7 +23,12 @@ const publicRoutes = [
     },
     {
         path: "/product/:id",
-        component: Product,
+        component: ProductDetails,
+        layout: MainLayout,
+    },
+    {
+        path: "/category/:id",
+        component: Category,
         layout: MainLayout,
     },
 ];

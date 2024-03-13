@@ -10,6 +10,7 @@ import { IoCartOutline } from "react-icons/io5";
 
 // import { Context } from "../../../../context/AppContext";
 import { useEffect, useState } from "react";
+import Cart from "../Cart";
 
 const cx = classNames.bind(styles);
 
@@ -33,53 +34,66 @@ const Header = () => {
         };
     });
     return (
-        <header
-            className={cx(
-                "header-wrapper",
-                `${scrolled ? "sticky-header" : ""}`
-            )}
-        >
-            <div className={cx("header-container")}>
-                <div className={cx("logo-wrapper")}>
-                    <img className={cx("logo-img")} src={logo} alt="Logo" />
-                    <h4 className={cx("shop-name")}>DT . F</h4>
-                </div>
-                <nav className={cx("navbar")}>
-                    <ul className={cx("nav-list")}>
-                        <li className={cx("nav-item")}>
-                            <a className={cx("nav-link")}>home</a>
-                        </li>
-                        <li className={cx("nav-item")}>
-                            <a className={cx("nav-link")}>shop</a>
-                        </li>
-                        <li className={cx("nav-item")}>
-                            <a className={cx("nav-link")}>about</a>
-                        </li>
-                        <li className={cx("nav-item")}>
-                            <a className={cx("nav-link")}>contact</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div className={cx("header-tools")}>
-                    <button className={cx("user", "btn", "header-tool-item")}>
-                        <AiOutlineUser size={28} />
-                    </button>
+        <>
+            <header
+                className={cx(
+                    "header-wrapper",
+                    `${scrolled ? "sticky-header" : ""}`
+                )}
+            >
+                <div className={cx("header-container")}>
+                    <div className={cx("logo-wrapper")}>
+                        <img className={cx("logo-img")} src={logo} alt="Logo" />
+                        <h4 className={cx("shop-name")}>DT . F</h4>
+                    </div>
+                    <nav className={cx("navbar")}>
+                        <ul className={cx("nav-list")}>
+                            <li className={cx("nav-item")}>
+                                <a className={cx("nav-link")}>home</a>
+                            </li>
+                            <li className={cx("nav-item")}>
+                                <a className={cx("nav-link")}>shop</a>
+                            </li>
+                            <li className={cx("nav-item")}>
+                                <a className={cx("nav-link")}>about</a>
+                            </li>
+                            <li className={cx("nav-item")}>
+                                <a className={cx("nav-link")}>contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div className={cx("header-tools")}>
+                        <button
+                            className={cx("user", "btn", "header-tool-item")}
+                        >
+                            <AiOutlineUser size={28} />
+                        </button>
 
-                    <button className={cx("search", "btn", "header-tool-item")}>
-                        <TbSearch size={28} />
-                    </button>
-                    <button
-                        className={cx("wishlist", "btn", "header-tool-item")}
-                    >
-                        <TbHeart size={28} />
-                    </button>
-                    <button className={cx("cart", "btn", "header-tool-item")}>
-                        <IoCartOutline size={28} />
-                        <span className={cx("cart-quantity")}>5</span>
-                    </button>
+                        <button
+                            className={cx("search", "btn", "header-tool-item")}
+                        >
+                            <TbSearch size={28} />
+                        </button>
+                        <button
+                            className={cx(
+                                "wishlist",
+                                "btn",
+                                "header-tool-item"
+                            )}
+                        >
+                            <TbHeart size={28} />
+                        </button>
+                        <button
+                            className={cx("cart", "btn", "header-tool-item")}
+                        >
+                            <IoCartOutline size={28} />
+                            <span className={cx("cart-quantity")}>5</span>
+                        </button>
+                    </div>
                 </div>
-            </div>
-        </header>
+            </header>
+            <Cart />
+        </>
     );
 };
 

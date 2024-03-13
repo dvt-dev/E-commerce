@@ -1,4 +1,4 @@
-import styles from "./Category.module.scss";
+import styles from "./Categories.module.scss";
 import classNames from "classnames/bind";
 
 import cat1 from "../../../../assets/images/category/cat-1.jpg";
@@ -8,36 +8,36 @@ import cat4 from "../../../../assets/images/category/cat-4.jpg";
 
 const cx = classNames.bind(styles);
 
-const Category = () => {
+const Categories = () => {
     return (
-        <section className={cx("category-wrapper")}>
-            <div className={cx("category-container")}>
-                <div className={cx("category")}>
+        <section className={cx("categories-wrapper")}>
+            <div className={cx("categories-container")}>
+                <div className={cx("categories")}>
                     <img
-                        className={cx("category-img")}
+                        className={cx("categories-img")}
                         src={cat1}
-                        alt="category"
+                        alt="categories"
                     />
                 </div>
-                <div className={cx("category")}>
+                <div className={cx("categories")}>
                     <img
-                        className={cx("category-img")}
+                        className={cx("categories-img")}
                         src={cat2}
-                        alt="category"
+                        alt="categories"
                     />
                 </div>
-                <div className={cx("category")}>
+                <div className={cx("categories")}>
                     <img
-                        className={cx("category-img")}
+                        className={cx("categories-img")}
                         src={cat3}
-                        alt="category"
+                        alt="categories"
                     />
                 </div>
-                <div className={cx("category")}>
+                <div className={cx("categories")}>
                     <img
-                        className={cx("category-img")}
+                        className={cx("categories-img")}
                         src={cat4}
-                        alt="category"
+                        alt="categories"
                     />
                 </div>
             </div>
@@ -45,4 +45,4 @@ const Category = () => {
     );
 };
 
-export default Category;
+export default Categories;

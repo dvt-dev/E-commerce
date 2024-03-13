@@ -1,7 +1,6 @@
 import Banner from "../../components/Layout/MainLayout/Banner";
-import Category from "../../components/Layout/MainLayout/Category";
-import Newsletter from "../../components/Layout/MainLayout/Newsletter";
-import Products from "../Products";
+import Categories from "../../components/Layout/MainLayout/Categories";
+import Products from "../../components/Layout/MainLayout/Products";
 
 import styles from "./Home.module.scss";
 import classNames from "classnames/bind";
@@ -14,10 +13,11 @@ const Home = () => {
             <div className={cx("home-container")}>
                 <Banner />
                 <div className={cx("main-content")}>
-                    <Category />
-                    <Products />
+                    <Categories />
+                    <div className={cx("products")}>
+                        <Products />
+                    </div>
                 </div>
-                <Newsletter />
             </div>
         </section>
     );
