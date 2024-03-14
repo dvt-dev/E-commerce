@@ -5,9 +5,9 @@
   position: relative;
   background-image: linear-gradient(to right, #974bd9, #6e3bdc);
   
-  @include md {
-    height: 100vh;
-  }
+  // @include md {
+  //   height: 100vh;
+  // }
 
   .banner-container {
     max-width: 1200px;

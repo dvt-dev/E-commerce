@@ -16,6 +16,7 @@ const cx = classNames.bind(styles);
 
 const Header = () => {
     const [scrolled, setScrolled] = useState(false);
+    const [showCart, setShowCart] = useState(false);
 
     const handleScroll = () => {
         let offset = window.scrollY;
@@ -85,6 +86,9 @@ const Header = () => {
                         </button>
                         <button
                             className={cx("cart", "btn", "header-tool-item")}
+                            onClick={() => {
+                                setShowCart(true);
+                            }}
                         >
                             <IoCartOutline size={28} />
                             <span className={cx("cart-quantity")}>5</span>
@@ -92,7 +96,7 @@ const Header = () => {
                     </div>
                 </div>
             </header>
-            <Cart />
+            {showCart && <Cart setShowCart={setShowCart} />}
         </>
     );
 };
