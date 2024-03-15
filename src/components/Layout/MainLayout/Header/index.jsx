@@ -11,12 +11,14 @@ import { IoCartOutline } from "react-icons/io5";
 // import { Context } from "../../../../context/AppContext";
 import { useEffect, useState } from "react";
 import Cart from "../Cart";
+import Search from "../Search";
 
 const cx = classNames.bind(styles);
 
 const Header = () => {
     const [scrolled, setScrolled] = useState(false);
     const [showCart, setShowCart] = useState(false);
+    const [showSearch, setShowSearch] = useState(false);
 
     const handleScroll = () => {
         let offset = window.scrollY;
@@ -72,6 +74,7 @@ const Header = () => {
 
                         <button
                             className={cx("search", "btn", "header-tool-item")}
+                            onClick={() => setShowSearch(true)}
                         >
                             <TbSearch size={28} />
                         </button>
@@ -97,6 +100,7 @@ const Header = () => {
                 </div>
             </header>
             {showCart && <Cart setShowCart={setShowCart} />}
+            {showSearch && <Search setShowSearch={setShowSearch} />}
         </>
     );
 };
