@@ -44,11 +44,15 @@
     .navbar {     
       .nav-list {
         display: none;
-        gap: 75px;
 
         @include md {
           display: flex;
-         
+          gap: 30px;
+          padding-top: 8px;
+        }
+
+        @include lg {
+          gap: 75px;
         }
 
         .nav-item {
@@ -73,6 +77,10 @@
       padding-top: 8px;
 
       @include md {
+        gap: 20px;
+      }
+
+      @include lg {
         gap: 40px;
       }
 

@@ -34,12 +34,31 @@ const Cart = ({ setShowCart }) => {
                         <CartItem />
                         <CartItem />
                         <CartItem />
+                        <CartItem />
+                        <CartItem />
+                        <CartItem />
+                        <CartItem />
+                        <CartItem />
+                        <CartItem />
                     </div>
 
                     <div className={cx("cart-footer")}>
                         <div className={cx("subtotal")}>
-                            <p className={cx("subtotal-text")}>Subtotal</p>
+                            <p className={cx("subtotal-text")}>Subtotal: </p>
                             <span className={cx("subtotal-price")}>$10000</span>
+                        </div>
+                        <p className={cx("cart-footer-text")}>
+                            Shipping, taxes, and discounts calculated at
+                            checkout.
+                        </p>
+                        <div className={cx("cart-footer-btns")}>
+                            <button className={cx("viewcart-btn", "btn")}>
+                                view cart
+                            </button>
+
+                            <button className={cx("checkout-btn", "btn")}>
+                                checkout
+                            </button>
                         </div>
                     </div>
 

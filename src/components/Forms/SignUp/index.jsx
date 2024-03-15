@@ -71,7 +71,7 @@ const SignUp = () => {
                         </p>
                         <button
                             className={cx("login-btn", "btn")}
-                            onClick={() => navigate("/login")}
+                            onClick={() => navigate("/")}
                         >
                             Login
                         </button>
