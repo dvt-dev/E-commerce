@@ -1,3 +1,5 @@
+@import "../../../css-config/mixins.module.scss";
+
 .login-wrapper {
 
   .login-container {
@@ -54,11 +56,15 @@
     }
 
     .password-inf {
-      margin: 14px 0;
+      margin: 20px 0;
       display: flex;
       justify-content: space-between;
       align-items: center;
       font-size: 1.4rem;
+
+      @include md {
+        margin: 14px 0;
+      }
 
       .remmerber-login {
         display: flex;
@@ -81,7 +87,11 @@
       background-color: #6358dc;
       color: var(--white-color);
       border-radius: 8px;
-      padding: 12px 0;
+      padding: 20px 0;
+
+      @include md {
+        padding: 12px 0;
+      }
 
       &:hover {
         cursor: pointer;

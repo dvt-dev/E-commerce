@@ -1,9 +1,15 @@
+@import "../../../css-config/mixins.module.scss";
+
 .signup-wrapper {
 
   .signup-container {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 20px;
+
+    @include md {
+      gap: 12px;
+    }
 
     .form-input-wrap {
       display: flex;
@@ -54,8 +60,13 @@
       background-color: #6358dc;
       color: var(--white-color);
       border-radius: 8px;
-      padding: 12px 0;
       margin-top: 10px;
+      padding: 20px 0;
+
+
+      @include md {
+        padding: 12px 0;
+      }
 
       &:hover {
         cursor: pointer;
