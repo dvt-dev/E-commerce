@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/prop-types */
 import styles from "./Search.module.scss";
 import classNames from "classnames/bind";
@@ -32,10 +33,586 @@ const Search = ({ setShowSearch }) => {
                             </div>
                             <div className={cx("product-details")}>
                                 <h3 className={cx("product-name")}>
-                                    product name
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading as one of their set texts this year.
+                                    At this point in the speech, the minister
+                                    departed from his prepared text.
                                 </h3>
                                 <p className={cx("product-des")}>
-                                    product description
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading as one of their set texts this year.
+                                    At this point in the speech, the minister
+                                    departed from his prepared text.
+                                </p>
+                            </div>
+                        </div>
+                        <div className={cx("search-result-item")}>
+                            <div className={cx("product-image")}>
+                                <img
+                                    className={cx("prod-img")}
+                                    src={prod1}
+                                    alt="Product Image"
+                                />
+                            </div>
+                            <div className={cx("product-details")}>
+                                <h3 className={cx("product-name")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </h3>
+                                <p className={cx("product-des")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </p>
+                            </div>
+                        </div>
+                        <div className={cx("search-result-item")}>
+                            <div className={cx("product-image")}>
+                                <img
+                                    className={cx("prod-img")}
+                                    src={prod1}
+                                    alt="Product Image"
+                                />
+                            </div>
+                            <div className={cx("product-details")}>
+                                <h3 className={cx("product-name")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </h3>
+                                <p className={cx("product-des")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </p>
+                            </div>
+                        </div>
+                        <div className={cx("search-result-item")}>
+                            <div className={cx("product-image")}>
+                                <img
+                                    className={cx("prod-img")}
+                                    src={prod1}
+                                    alt="Product Image"
+                                />
+                            </div>
+                            <div className={cx("product-details")}>
+                                <h3 className={cx("product-name")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </h3>
+                                <p className={cx("product-des")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </p>
+                            </div>
+                        </div>
+                        <div className={cx("search-result-item")}>
+                            <div className={cx("product-image")}>
+                                <img
+                                    className={cx("prod-img")}
+                                    src={prod1}
+                                    alt="Product Image"
+                                />
+                            </div>
+                            <div className={cx("product-details")}>
+                                <h3 className={cx("product-name")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </h3>
+                                <p className={cx("product-des")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </p>
+                            </div>
+                        </div>
+                        <div className={cx("search-result-item")}>
+                            <div className={cx("product-image")}>
+                                <img
+                                    className={cx("prod-img")}
+                                    src={prod1}
+                                    alt="Product Image"
+                                />
+                            </div>
+                            <div className={cx("product-details")}>
+                                <h3 className={cx("product-name")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </h3>
+                                <p className={cx("product-des")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </p>
+                            </div>
+                        </div>
+                        <div className={cx("search-result-item")}>
+                            <div className={cx("product-image")}>
+                                <img
+                                    className={cx("prod-img")}
+                                    src={prod1}
+                                    alt="Product Image"
+                                />
+                            </div>
+                            <div className={cx("product-details")}>
+                                <h3 className={cx("product-name")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </h3>
+                                <p className={cx("product-des")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </p>
+                            </div>
+                        </div>
+                        <div className={cx("search-result-item")}>
+                            <div className={cx("product-image")}>
+                                <img
+                                    className={cx("prod-img")}
+                                    src={prod1}
+                                    alt="Product Image"
+                                />
+                            </div>
+                            <div className={cx("product-details")}>
+                                <h3 className={cx("product-name")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </h3>
+                                <p className={cx("product-des")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </p>
+                            </div>
+                        </div>
+                        <div className={cx("search-result-item")}>
+                            <div className={cx("product-image")}>
+                                <img
+                                    className={cx("prod-img")}
+                                    src={prod1}
+                                    alt="Product Image"
+                                />
+                            </div>
+                            <div className={cx("product-details")}>
+                                <h3 className={cx("product-name")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </h3>
+                                <p className={cx("product-des")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </p>
+                            </div>
+                        </div>
+                        <div className={cx("search-result-item")}>
+                            <div className={cx("product-image")}>
+                                <img
+                                    className={cx("prod-img")}
+                                    src={prod1}
+                                    alt="Product Image"
+                                />
+                            </div>
+                            <div className={cx("product-details")}>
+                                <h3 className={cx("product-name")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </h3>
+                                <p className={cx("product-des")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </p>
+                            </div>
+                        </div>
+                        <div className={cx("search-result-item")}>
+                            <div className={cx("product-image")}>
+                                <img
+                                    className={cx("prod-img")}
+                                    src={prod1}
+                                    alt="Product Image"
+                                />
+                            </div>
+                            <div className={cx("product-details")}>
+                                <h3 className={cx("product-name")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </h3>
+                                <p className={cx("product-des")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </p>
+                            </div>
+                        </div>
+                        <div className={cx("search-result-item")}>
+                            <div className={cx("product-image")}>
+                                <img
+                                    className={cx("prod-img")}
+                                    src={prod1}
+                                    alt="Product Image"
+                                />
+                            </div>
+                            <div className={cx("product-details")}>
+                                <h3 className={cx("product-name")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </h3>
+                                <p className={cx("product-des")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </p>
+                            </div>
+                        </div>
+                        <div className={cx("search-result-item")}>
+                            <div className={cx("product-image")}>
+                                <img
+                                    className={cx("prod-img")}
+                                    src={prod1}
+                                    alt="Product Image"
+                                />
+                            </div>
+                            <div className={cx("product-details")}>
+                                <h3 className={cx("product-name")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </h3>
+                                <p className={cx("product-des")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </p>
+                            </div>
+                        </div>
+                        <div className={cx("search-result-item")}>
+                            <div className={cx("product-image")}>
+                                <img
+                                    className={cx("prod-img")}
+                                    src={prod1}
+                                    alt="Product Image"
+                                />
+                            </div>
+                            <div className={cx("product-details")}>
+                                <h3 className={cx("product-name")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </h3>
+                                <p className={cx("product-des")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </p>
+                            </div>
+                        </div>
+                        <div className={cx("search-result-item")}>
+                            <div className={cx("product-image")}>
+                                <img
+                                    className={cx("prod-img")}
+                                    src={prod1}
+                                    alt="Product Image"
+                                />
+                            </div>
+                            <div className={cx("product-details")}>
+                                <h3 className={cx("product-name")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </h3>
+                                <p className={cx("product-des")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </p>
+                            </div>
+                        </div>
+                        <div className={cx("search-result-item")}>
+                            <div className={cx("product-image")}>
+                                <img
+                                    className={cx("prod-img")}
+                                    src={prod1}
+                                    alt="Product Image"
+                                />
+                            </div>
+                            <div className={cx("product-details")}>
+                                <h3 className={cx("product-name")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </h3>
+                                <p className={cx("product-des")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </p>
+                            </div>
+                        </div>
+                        <div className={cx("search-result-item")}>
+                            <div className={cx("product-image")}>
+                                <img
+                                    className={cx("prod-img")}
+                                    src={prod1}
+                                    alt="Product Image"
+                                />
+                            </div>
+                            <div className={cx("product-details")}>
+                                <h3 className={cx("product-name")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
+                                </h3>
+                                <p className={cx("product-des")}>
+                                    The spelling mistakes in the text had been
+                                    highlighted in green. The text is finished,
+                                    but the pictures will have to be pasted in
+                                    later. You need to demonstrate to the
+                                    examiners that you have more than a literal
+                                    understanding of the text. The students are
+                                    reading "Lord of the Flies" as one of their
+                                    set texts this year. At this point in the
+                                    speech, the minister departed from his
+                                    prepared text.
                                 </p>
                             </div>
                         </div>
