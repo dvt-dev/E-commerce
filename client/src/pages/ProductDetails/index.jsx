@@ -35,13 +35,20 @@ const ProductDetails = () => {
                         </h2>
                         <span className={cx("product-price")}>&#x24; 100</span>
                         <p className={cx("product-des")}>
-                            The AirPods 2 by Apple offer an unparalleled
-                            wireless audio experience, combining convenience,
-                            quality, and innovation in a sleek and compact
-                            design. Designed to seamlessly integrate with Apple
-                            devices, these wireless earbuds provide effortless
-                            pairing and a stable wireless connection for a truly
-                            wireless experience.
+                            Hello sassy and fierce ladies! We see you soaring
+                            high for your dreams, and we want to support them.
+                            Let TRebel Airdopes 141 be your biggest cheerleader
+                            while you win the world with your go-getter
+                            attitude! Shun their opinions by indulging in your
+                            rhythm with the 8mm Dynamic Drivers. Ace those
+                            business calls with its ENx™ Technology that makes
+                            you heard every time. ASAP™ Charge empowers you with
+                            75 minutes of playback with just 5 minutes of
+                            charging. IPX4 makes it easier to roll in the good
+                            times as you rock that sweat, changing your
+                            lifestyle. Connect instantly with its IWP™
+                            Technology & keep everything under control with its
+                            Quick Response Touch.
                         </p>
                         <div className={cx("cart-buttons")}>
                             <div className={cx("quantity-buttons")}>
