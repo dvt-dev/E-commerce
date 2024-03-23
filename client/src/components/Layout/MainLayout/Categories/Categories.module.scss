@@ -15,7 +15,7 @@
     }
     
 
-    .categories {
+    .category {
       width: calc(50% - 5px);
       overflow: hidden;
       cursor: pointer;
@@ -24,13 +24,13 @@
         width: calc(25% - 10px);
       }
 
-      .categories-img {
+      .category-img {
         width: 100%;
         transition: all ease-in .3s;
       }
 
       &:hover {
-        .categories-img {
+        .category-img {
           transform: scale(1.2);
         }
       }

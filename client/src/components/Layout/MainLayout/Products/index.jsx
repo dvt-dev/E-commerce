@@ -5,7 +5,7 @@ import classNames from "classnames/bind";
 
 const cx = classNames.bind(styles);
 
-const Products = ({ innerPage }) => {
+const Products = ({ products, innerPage }) => {
     return (
         <section className={cx("products-wrapper")}>
             <div className={cx("products-container")}>
@@ -18,16 +18,15 @@ const Products = ({ innerPage }) => {
                 )}
 
                 <div className={cx("products-list")}>
-                    <Product />
-                    <Product />
-                    <Product />
-                    <Product />
-                    <Product />
-                    <Product />
-                    <Product />
-                    <Product />
-                    <Product />
-                    <Product />
+                    {products &&
+                        products.data &&
+                        products.data.map((product) => (
+                            <Product
+                                key={product.id}
+                                id={product.id}
+                                data={product.attributes}
+                            />
+                        ))}
                 </div>
             </div>
         </section>
